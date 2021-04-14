@@ -94,6 +94,13 @@
         // To learn more about panes, visit https://aka.ms/terminal-panes
         //{ "command": { "action": "splitPane", "split": "auto", "splitMode": "duplicate" }, "keys": "alt+shift+d" },
 
+        // Unbind keys that interfere with Emacs
+        { "command": "unbound", "keys": "alt+down" },
+        { "command": "unbound", "keys": "alt+left" },
+        { "command": "unbound", "keys": "alt+right" },
+        { "command": "ubnound", "keys": "alt+up" },
+        { "command": "unbound", "keys": "ctrl+," },
+        
         // Linux style tab switching
         { "command": "nextTab", "keys": "ctrl+pgdn" },
         { "command": "prevTab", "keys": "ctrl+pgup" },
