@@ -102,13 +102,13 @@
         { "command": "unbound", "keys": "ctrl+," },
         
         // Linux style tab switching
-        { "command": "nextTab", "keys": "ctrl+pgdn" },
-        { "command": "prevTab", "keys": "ctrl+pgup" },
+        //{ "command": "nextTab", "keys": "ctrl+pgdn" },
+        //{ "command": "prevTab", "keys": "ctrl+pgup" },
 
         // Move tab backward (left in LTR)
-        { "command": { "action": "moveTab", "direction": "backward" }, "keys": "ctrl+shift+pgup" },
+        //{ "command": { "action": "moveTab", "direction": "backward" }, "keys": "ctrl+shift+pgup" },
 
         // Move tab forward (right in LTR)
-        { "command": { "action": "moveTab", "direction": "forward" }, "keys": "ctrl+shift+pgdn" }
+        //{ "command": { "action": "moveTab", "direction": "forward" }, "keys": "ctrl+shift+pgdn" }
     ]
 }
