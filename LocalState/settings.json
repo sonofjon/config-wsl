@@ -110,6 +110,10 @@
         //{ "command": { "action": "moveTab", "direction": "backward" }, "keys": "ctrl+shift+pgup" },
 
         // Move tab forward (right in LTR)
-        //{ "command": { "action": "moveTab", "direction": "forward" }, "keys": "ctrl+shift+pgdn" }
+        //{ "command": { "action": "moveTab", "direction": "forward" }, "keys": "ctrl+shift+pgdn" },
+
+        // Change default keys for scrolling
+        { "command": "scrollDownPage", "keys": "shift+pgdn" },
+        { "command": "scrollUpPage", "keys": "shift+pgup" }
     ]
 }
