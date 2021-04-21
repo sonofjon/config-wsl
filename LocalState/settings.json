@@ -17,7 +17,7 @@
 
     // Default window size
     "initialCols": 180,
-    "initialRows": 60,
+    "initialRows": 50,
 
     // If enabled, selections are automatically copied to your clipboard.
     "copyOnSelect": false,
