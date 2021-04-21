@@ -15,6 +15,10 @@
     // You can add more global application settings here.
     // To learn more about global settings, visit https://aka.ms/terminal-global-settings
 
+    // Default window size
+    "initialCols": 180,
+    "initialRows": 60,
+
     // If enabled, selections are automatically copied to your clipboard.
     "copyOnSelect": false,
 
