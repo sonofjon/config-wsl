@@ -99,6 +99,9 @@
         // To learn more about panes, visit https://aka.ms/terminal-panes
         //{ "command": { "action": "splitPane", "split": "auto", "splitMode": "duplicate" }, "keys": "alt+shift+d" },
 
+        // Bind keys to send escape codes (does not work)
+        // { "command": {"action": "sendInput", "input": "\u001b[59;5u" }, "keys": "ctrl+;" },
+        
         // Unbind keys that interfere with Emacs
         { "command": "unbound", "keys": "alt+down" },
         { "command": "unbound", "keys": "alt+left" },
