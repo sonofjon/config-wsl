@@ -40,7 +40,8 @@
         "defaults":
         {
             // Put settings here that you want to apply to all profiles.
-            "fontSize": 10
+            "fontSize": 10,
+            "bellStyle": "visual"            
         },
         "list":
         [
