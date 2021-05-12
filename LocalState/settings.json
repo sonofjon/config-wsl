@@ -102,6 +102,10 @@
 
         // Bind keys to send escape codes (does not work)
         // { "command": {"action": "sendInput", "input": "\u001b[59;5u" }, "keys": "ctrl+;" },
+        // Bind keys to send escape codes (works)
+        // { "command": {"action": "sendInput", "input": "\u001b[127;2u" }, "keys": "shift+backspace" },
+        { "command": {"action": "sendInput", "input": "\u001b[127;5u" }, "keys": "ctrl+backspace" },
+        { "command": {"action": "sendInput", "input": "\u001b[127;6u" }, "keys": "ctrl+shift+backspace" },
         
         // Unbind keys that interfere with Emacs
         { "command": "unbound", "keys": "alt+down" },
