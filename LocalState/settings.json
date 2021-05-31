@@ -102,6 +102,8 @@
 
         // Bind keys to send escape codes
         { "command": {"action": "sendInput", "input": "\u001b[59;5u" }, "keys": "ctrl+;" },
+        { "command": {"action": "sendInput", "input": "\u001b[44;5u" }, "keys": "ctrl+," },
+        { "command": {"action": "sendInput", "input": "\u001b[46;5u" }, "keys": "ctrl+." },
         // { "command": {"action": "sendInput", "input": "\u001b[127;2u" }, "keys": "shift+backspace" },
         { "command": {"action": "sendInput", "input": "\u001b[127;5u" }, "keys": "ctrl+backspace" },
         { "command": {"action": "sendInput", "input": "\u001b[127;6u" }, "keys": "ctrl+shift+backspace" },
