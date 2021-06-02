@@ -100,14 +100,6 @@
         // To learn more about panes, visit https://aka.ms/terminal-panes
         //{ "command": { "action": "splitPane", "split": "auto", "splitMode": "duplicate" }, "keys": "alt+shift+d" },
 
-        // Bind keys to send escape codes
-        { "command": {"action": "sendInput", "input": "\u001b[59;5u" }, "keys": "ctrl+;" },
-        { "command": {"action": "sendInput", "input": "\u001b[44;5u" }, "keys": "ctrl+," },
-        { "command": {"action": "sendInput", "input": "\u001b[46;5u" }, "keys": "ctrl+." },
-        // { "command": {"action": "sendInput", "input": "\u001b[127;2u" }, "keys": "shift+backspace" },
-        { "command": {"action": "sendInput", "input": "\u001b[127;5u" }, "keys": "ctrl+backspace" },
-        { "command": {"action": "sendInput", "input": "\u001b[127;6u" }, "keys": "ctrl+shift+backspace" },
-        
         // Unbind keys that interfere with Emacs
         { "command": "unbound", "keys": "alt+down" },
         { "command": "unbound", "keys": "alt+left" },
@@ -118,6 +110,14 @@
         { "command": "unbound", "keys": "ctrl+," },
         { "command": "unbound", "keys": "ctrl+alt+," },
         { "command": "unbound", "keys": "ctrl+shift+," },
+
+        // Bind keys to send escape codes
+        { "command": {"action": "sendInput", "input": "\u001b[59;5u" }, "keys": "ctrl+;" },
+        { "command": {"action": "sendInput", "input": "\u001b[44;5u" }, "keys": "ctrl+," },
+        { "command": {"action": "sendInput", "input": "\u001b[46;5u" }, "keys": "ctrl+." },
+        // { "command": {"action": "sendInput", "input": "\u001b[127;2u" }, "keys": "shift+backspace" },
+        { "command": {"action": "sendInput", "input": "\u001b[127;5u" }, "keys": "ctrl+backspace" },
+        { "command": {"action": "sendInput", "input": "\u001b[127;6u" }, "keys": "ctrl+shift+backspace" },
         
         // Linux style tab switching
         { "command": "nextTab", "keys": "ctrl+pgdn" },
