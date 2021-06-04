@@ -70,32 +70,32 @@
                 "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
                 "hidden": false,
                 "name": "Ubuntu-20.04",
-                "source": "Windows.Terminal.Wsl"
-                //"startingDirectory": "//wsl$/Ubuntu-20.04/home/andreas"
+                "source": "Windows.Terminal.Wsl",
+                "startingDirectory": "\\\\wsl$\\Ubuntu-20.04\\home\\andreas"
             },
             {
                 "closeOnExit": "always",
                 "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
                 "hidden": false,
                 "name": "Debian",
-                "source": "Windows.Terminal.Wsl"
-                //"startingDirectory": "//wsl$/Ubuntu-20.04/home/andreas"
+                "source": "Windows.Terminal.Wsl",
+                "startingDirectory": "\\\\wsl$\\Debian\\home\\andreas"
             },
             {
                 "closeOnExit": "always",
                 "guid": "{d1569d34-e3dc-506e-b3ef-3ca18387f714}",
                 "hidden": false,
                 "name": "Ubuntu-CommPrev",
-                "source": "Windows.Terminal.Wsl"
-                //"startingDirectory": "//wsl$/Ubuntu-20.04/home/andreas"
+                "source": "Windows.Terminal.Wsl",
+                "startingDirectory": "\\\\wsl$\\Ubuntu-CommPrev\\home\\andreas"
             },
             {
                 "closeOnExit": "always",
                 "guid": "{620e65d5-5d9b-55bf-873b-4a1dfa317ba4}",
                 "hidden": false,
-                "name": "Ubuntu on Windows Community Preview",
-                "source": "CanonicalGroupLimited.UbuntuonWindowsCommunityPrev_79rhkp1fndgsc"
-                //"startingDirectory": "//wsl$/Ubuntu-20.04/home/andreas"
+                "name": "Ubuntu-on-Windows-Community-Preview",
+                "source": "CanonicalGroupLimited.UbuntuonWindowsCommunityPrev_79rhkp1fndgsc",
+                "startingDirectory": "\\\\wsl$\\Ubuntu-on-Windows-Community-Preview\\home\\andreas"
             }
         ]
     },
