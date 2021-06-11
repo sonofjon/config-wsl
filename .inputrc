@@ -1,1 +1,3 @@
+# Note that /etc/inputrc is not read if ~/.inputrc is present
+
 set bell-style visible
