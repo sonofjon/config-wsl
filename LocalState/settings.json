@@ -147,6 +147,7 @@
         { "command": {"action": "sendInput", "input": "\u001b[59;5u" }, "keys": "ctrl+;" },
         { "command": {"action": "sendInput", "input": "\u001b[44;5u" }, "keys": "ctrl+," },
         { "command": {"action": "sendInput", "input": "\u001b[46;5u" }, "keys": "ctrl+." },
+        { "command": {"action": "sendInput", "input": "\u001b[47;7u" }, "keys": "ctrl+alt+\/" },
         // { "command": {"action": "sendInput", "input": "\u001b[127;2u" }, "keys": "shift+backspace" },
         { "command": {"action": "sendInput", "input": "\u001b[127;5u" }, "keys": "ctrl+backspace" },
         { "command": {"action": "sendInput", "input": "\u001b[127;6u" }, "keys": "ctrl+shift+backspace" },
