@@ -151,6 +151,7 @@
         // { "command": {"action": "sendInput", "input": "\u001b[127;2u" }, "keys": "shift+backspace" },
         { "command": {"action": "sendInput", "input": "\u001b[127;5u" }, "keys": "ctrl+backspace" },
         { "command": {"action": "sendInput", "input": "\u001b[127;6u" }, "keys": "ctrl+shift+backspace" },
+        { "command": {"action": "sendInput", "input": "\u001b[107;6u" }, "keys": "ctrl+shift+k" },
 
         // Linux style tab switching
         { "command": "nextTab", "keys": "ctrl+pgdn" },
