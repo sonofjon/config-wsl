@@ -184,7 +184,8 @@
             "font": 
             {
                 "size": 10
-            }
+            },
+            "cursorShape": "filledBox"
         },
         "list": 
         [
@@ -258,7 +259,8 @@
             "brightRed": "#E74856",
             "brightWhite": "#F2F2F2",
             "brightYellow": "#F9F1A5",
-            "cursorColor": "#FFFFFF",
+            // "cursorColor": "#FFFFFF",
+            "cursorColor": "#AAAAAA",
             "cyan": "#3A96DD",
             "foreground": "#CCCCCC",
             "green": "#13A10E",
