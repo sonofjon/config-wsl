@@ -172,6 +172,8 @@
     "multiLinePasteWarning": false,
     // Disable tab switcher
     "tabSwitcherMode": "disabled",
+    // Use system theme
+    "theme": "system",
     "profiles": 
     {
         "defaults": 
