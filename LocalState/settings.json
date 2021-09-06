@@ -187,7 +187,10 @@
             {
                 "size": 10
             },
-            "colorScheme": "My Campbell",
+            // "colorScheme": "One Half Light",
+            // "colorScheme": "One Half Dark",
+            "colorScheme": "Tango Light",
+            // "colorScheme": "Tango Dark",
             "cursorShape": "filledBox"
         },
         "list": 
