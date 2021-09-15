@@ -165,9 +165,9 @@
     "initialCols": 180,
     "initialRows": 50,
     // If enabled, selections are automatically copied to your clipboard.
-    "copyOnSelect": false,
     // If enabled, formatted data is also copied to your clipboard
     "copyFormatting": "none",
+    "copyOnSelect": true,
     // Disable multi-line pasting warning
     "multiLinePasteWarning": false,
     // Disable tab switcher
