@@ -160,7 +160,8 @@
             "keys": "shift+pgdn"
         }
     ],
-    "defaultProfile": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+    // "defaultProfile": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",   // NT175
+    "defaultProfile": "{2c4de342-38b7-51cf-b940-2309a097f518}",      // brain5-windows
     // Default window size
     "initialCols": 180,
     "initialRows": 50,
@@ -217,11 +218,21 @@
             {
                 "closeOnExit": "always",
                 "commandline": "wsl.exe ~",
-                "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+                "guid": "{6e9fa4d2-a4aa-562d-b1fa-0789dc1f83d7}",
                 "hidden": false,
-                "name": "Ubuntu-20.04",
+                "name": "Legacy",
+                "source": "Windows.Terminal.Wsl"
+                // "startingDirectory": "\\\\wsl$\\Ubuntu\\home\\andreas"
+            },
+            {
+                "closeOnExit": "always",
+                "commandline": "wsl.exe -d Ubuntu",
+                // "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}", // NT175
+                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",    // brain5-windows
+                "hidden": false,
+                "name": "Ubuntu",
                 "source": "Windows.Terminal.Wsl",
-                "startingDirectory": "\\\\wsl$\\Ubuntu-20.04\\home\\andreas"
+                "startingDirectory": "\\\\wsl$\\Ubuntu\\home\\andreas"
             },
             {
                 "closeOnExit": "always",
