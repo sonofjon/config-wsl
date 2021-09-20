@@ -160,8 +160,8 @@
             "keys": "shift+pgdn"
         }
     ],
-    // "defaultProfile": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",   // NT175
-    "defaultProfile": "{2c4de342-38b7-51cf-b940-2309a097f518}",      // brain5-windows
+    "defaultProfile": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",   // NT175
+    // "defaultProfile": "{2c4de342-38b7-51cf-b940-2309a097f518}",   // brain5-windows
     // Default window size
     "initialCols": 180,
     "initialRows": 50,
@@ -198,24 +198,28 @@
         "list": 
         [
             {
+                // Powershell
                 "commandline": "powershell.exe",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
                 "name": "Windows PowerShell"
             },
             {
+                // Console
                 "commandline": "cmd.exe",
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
                 "name": "Command Prompt"
             },
             {
+                // Azure Cloud
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
                 "hidden": false,
                 "name": "Azure Cloud Shell",
                 "source": "Windows.Terminal.Azure"
             },
             {
+                // Legacy (brain5-windows)
                 "closeOnExit": "always",
                 "commandline": "wsl.exe ~",
                 "guid": "{6e9fa4d2-a4aa-562d-b1fa-0789dc1f83d7}",
@@ -225,16 +229,27 @@
                 // "startingDirectory": "\\\\wsl$\\Ubuntu\\home\\andreas"
             },
             {
+                // Ubuntu 20.04 LTS (NT175)
+                "closeOnExit": "always",
+                "commandline": "wsl.exe -d Ubuntu-20.04",
+                "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+                "hidden": false,
+                "name": "Ubuntu-20.04",
+                "source": "Windows.Terminal.Wsl",
+                "startingDirectory": "\\\\wsl$\\Ubuntu-20.04\\home\\andreas"
+            },
+            {
+                // Ubuntu (brain5-windows)
                 "closeOnExit": "always",
                 "commandline": "wsl.exe -d Ubuntu",
-                // "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}", // NT175
-                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",    // brain5-windows
+                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
                 "hidden": false,
                 "name": "Ubuntu",
                 "source": "Windows.Terminal.Wsl",
                 "startingDirectory": "\\\\wsl$\\Ubuntu\\home\\andreas"
             },
             {
+                // Debian (NT175)
                 "closeOnExit": "always",
                 "commandline": "wsl.exe -d Debian",
                 "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
@@ -244,6 +259,7 @@
                 // "startingDirectory": "\\\\wsl$\\Debian\\home\\andreas"
             },
             {
+                // Ubuntu on Windows Community Preview (NT175)
                 "closeOnExit": "always",
                 "commandline": "wsl.exe -d Ubuntu-CommPrev",
                 "guid": "{d1569d34-e3dc-506e-b3ef-3ca18387f714}",
@@ -253,6 +269,7 @@
                 // "startingDirectory": "\\\\wsl$\\Ubuntu-CommPrev\\home\\andreas"
             },
             {
+                // Ubuntu on Windows Community Preview (alternative) (NT175)
                 "closeOnExit": "always",
                 "commandline": "wsl.exe -d Ubuntu-on-Windows-Community-Preview",
                 "guid": "{620e65d5-5d9b-55bf-873b-4a1dfa317ba4}",
