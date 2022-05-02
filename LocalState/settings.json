@@ -184,7 +184,8 @@
             ],
             "font": 
             {
-                "size": 10
+                "face": "Cascadia Code",
+                "size": 11
             },
             // "colorScheme": "One Half Light",
             // "colorScheme": "One Half Dark",
