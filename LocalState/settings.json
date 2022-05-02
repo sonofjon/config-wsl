@@ -230,14 +230,24 @@
                 // "startingDirectory": "\\\\wsl$\\Ubuntu\\home\\andreas"
             },
             {
-                // Ubuntu 20.04 LTS (NT175)
-                "closeOnExit": "always",
-                "commandline": "wsl.exe -d Ubuntu-20.04",
-                "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+                // Ubuntu 20.04 LTS (NT131)
+                // "commandline": "wsl.exe -d Ubuntu-20.04",
+                "guid": "{5a069d55-87bd-57cf-8a07-2726b203d3e5}",
                 "hidden": false,
-                "name": "Ubuntu-20.04",
-                "source": "Windows.Terminal.Wsl",
-                "startingDirectory": "\\\\wsl$\\Ubuntu-20.04\\home\\andreas"
+                "name": "Ubuntu 20.04.4 LTS",
+                // "source": "Windows.Terminal.Wsl",
+                "source": "CanonicalGroupLimited.Ubuntu20.04LTS_79rhkp1fndgsc"
+                // "startingDirectory": "\\\\wsl$\\Ubuntu-20.04\\home\\andreas"
+            },
+            {
+                // Ubuntu 22.04 LTS (NT131)
+                // "commandline": "wsl.exe -d Ubuntu-22.04",
+                "guid": "{60c3e313-8e1a-58f6-8175-3650c2bd2b26}",
+                "hidden": false,
+                "name": "Ubuntu 22.04 LTS",
+                // "source": "Windows.Terminal.Wsl",
+                "source": "CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc"
+                // "startingDirectory": "\\\\wsl$\\Ubuntu-22.04\\home\\andreas"
             },
             {
                 // Ubuntu (brain5-windows)
@@ -248,36 +258,6 @@
                 "name": "Ubuntu",
                 "source": "Windows.Terminal.Wsl",
                 "startingDirectory": "\\\\wsl$\\Ubuntu\\home\\andreas"
-            },
-            {
-                // Debian (NT175)
-                "closeOnExit": "always",
-                "commandline": "wsl.exe -d Debian",
-                "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
-                "hidden": false,
-                "name": "Debian",
-                "source": "Windows.Terminal.Wsl",
-                // "startingDirectory": "\\\\wsl$\\Debian\\home\\andreas"
-            },
-            {
-                // Ubuntu on Windows Community Preview (NT175)
-                "closeOnExit": "always",
-                "commandline": "wsl.exe -d Ubuntu-CommPrev",
-                "guid": "{d1569d34-e3dc-506e-b3ef-3ca18387f714}",
-                "hidden": false,
-                "name": "Ubuntu-CommPrev",
-                "source": "Windows.Terminal.Wsl",
-                // "startingDirectory": "\\\\wsl$\\Ubuntu-CommPrev\\home\\andreas"
-            },
-            {
-                // Ubuntu on Windows Community Preview (alternative) (NT175)
-                "closeOnExit": "always",
-                "commandline": "wsl.exe -d Ubuntu-on-Windows-Community-Preview",
-                "guid": "{620e65d5-5d9b-55bf-873b-4a1dfa317ba4}",
-                "hidden": false,
-                "name": "Ubuntu-on-Windows-Community-Preview",
-                "source": "CanonicalGroupLimited.UbuntuonWindowsCommunityPrev_79rhkp1fndgsc",
-                // "startingDirectory": "\\\\wsl$\\Ubuntu-on-Windows-Community-Preview\\home\\andreas"
             }
         ]
     },
