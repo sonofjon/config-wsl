@@ -1,4 +1,5 @@
 {
+    "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
     "actions": 
     [
@@ -161,17 +162,17 @@
         }
     ],
     "defaultProfile": "{60c3e313-8e1a-58f6-8175-3650c2bd2b26}",
+    // Use system theme
+    "theme": "system",
     // Default window size
     "initialCols": 180,
     "initialRows": 50,
-    // If enabled, selections are automatically copied to your clipboard.
+    // Disable tab switcher
+    "tabSwitcherMode": "disabled",
+    // Automatically copy selections to clipboard
     "copyOnSelect": true,
     // Disable multi-line pasting warning
     "multiLinePasteWarning": false,
-    // Disable tab switcher
-    "tabSwitcherMode": "disabled",
-    // Use system theme
-    "theme": "system",
     // Don't prompt on exit
     "closeOnExit": "always",
     "profiles": 
