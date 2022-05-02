@@ -173,6 +173,8 @@
     "tabSwitcherMode": "disabled",
     // Use system theme
     "theme": "system",
+    // Don't prompt on exit
+    "closeOnExit": "always",
     "profiles": 
     {
         "defaults": 
@@ -221,7 +223,6 @@
             },
             {
                 // Legacy (brain5-windows)
-                "closeOnExit": "always",
                 "commandline": "wsl.exe ~",
                 "guid": "{6e9fa4d2-a4aa-562d-b1fa-0789dc1f83d7}",
                 "hidden": false,
@@ -251,7 +252,6 @@
             },
             {
                 // Ubuntu (brain5-windows)
-                "closeOnExit": "always",
                 "commandline": "wsl.exe -d Ubuntu",
                 "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
                 "hidden": false,
