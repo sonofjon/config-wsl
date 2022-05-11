@@ -194,7 +194,7 @@
             // "colorScheme": "Tango Light",
             // "colorScheme": "Tango Dark",
             // "colorScheme": "Vintage",
-            "colorScheme": "Modus Operandi",
+            // "colorScheme": "Modus Operandi",
             // "colorScheme": "Modus Vivendi",
             "cursorShape": "filledBox"
         },
@@ -237,8 +237,10 @@
                 "hidden": false,
                 "name": "Ubuntu 20.04.4 LTS",
                 // "source": "Windows.Terminal.Wsl",
-                "source": "CanonicalGroupLimited.Ubuntu20.04LTS_79rhkp1fndgsc"
-                // "startingDirectory": "\\\\wsl$\\Ubuntu-20.04\\home\\andreas"
+                "source": "CanonicalGroupLimited.Ubuntu20.04LTS_79rhkp1fndgsc",
+                // "startingDirectory": "\\\\wsl$\\Ubuntu-20.04\\home\\andreas",
+                "colorScheme": "Modus Operandi"
+                // "colorScheme": "Modus Vivendi"
             },
             {
                 // Ubuntu 22.04 LTS (NT131)
@@ -247,8 +249,10 @@
                 "hidden": false,
                 "name": "Ubuntu 22.04 LTS",
                 // "source": "Windows.Terminal.Wsl",
-                "source": "CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc"
-                // "startingDirectory": "\\\\wsl$\\Ubuntu-22.04\\home\\andreas"
+                "source": "CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc",
+                // "startingDirectory": "\\\\wsl$\\Ubuntu-22.04\\home\\andreas",
+                "colorScheme": "Modus Operandi"
+                // "colorScheme": "Modus Vivendi"
             },
             {
                 // Ubuntu (brain5-windows)
@@ -257,7 +261,9 @@
                 "hidden": false,
                 "name": "Ubuntu",
                 "source": "Windows.Terminal.Wsl",
-                "startingDirectory": "\\\\wsl$\\Ubuntu\\home\\andreas"
+                "startingDirectory": "\\\\wsl$\\Ubuntu\\home\\andreas",
+                "colorScheme": "Modus Operandi"
+                // "colorScheme": "Modus Vivendi"
             }
         ]
     },
