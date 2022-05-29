@@ -51,6 +51,10 @@
         },
         {
             "command": "unbound",
+            "keys": "alt+space"
+        },
+        {
+            "command": "unbound",
             "keys": "alt+enter"
         },
         {
