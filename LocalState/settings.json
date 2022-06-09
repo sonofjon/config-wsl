@@ -244,6 +244,28 @@
                 // "startingDirectory": "\\\\wsl$\\Ubuntu\\home\\andreas"
             },
             {
+                // Ubuntu (brain5-windows)
+                "commandline": "wsl.exe -d Ubuntu",
+                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+                "hidden": false,
+                "name": "Ubuntu",
+                "source": "Windows.Terminal.Wsl",
+                "startingDirectory": "\\\\wsl$\\Ubuntu\\home\\andreas",
+                "colorScheme": "Modus Operandi"
+                // "colorScheme": "Modus Vivendi"
+            },
+            {
+                // Ubuntu 20.04 (brain8-windows)
+                "commandline": "wsl.exe -d Ubuntu-20.04",
+                "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+                "hidden": false,
+                "name": "Ubuntu 20.04 LTS",
+                "source": "Windows.Terminal.Wsl",
+                "startingDirectory": "\\\\wsl$\\Ubuntu-20.04\\home\\andreas",
+                "colorScheme": "Modus Operandi"
+                // "colorScheme": "Modus Vivendi"
+            },
+            {
                 // Ubuntu 20.04 LTS (NT131)
                 // "commandline": "wsl.exe -d Ubuntu-20.04",
                 "guid": "{5a069d55-87bd-57cf-8a07-2726b203d3e5}",
@@ -264,17 +286,6 @@
                 // "source": "Windows.Terminal.Wsl",
                 "source": "CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc",
                 // "startingDirectory": "\\\\wsl$\\Ubuntu-22.04\\home\\andreas",
-                "colorScheme": "Modus Operandi"
-                // "colorScheme": "Modus Vivendi"
-            },
-            {
-                // Ubuntu (brain5-windows)
-                "commandline": "wsl.exe -d Ubuntu",
-                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
-                "hidden": false,
-                "name": "Ubuntu",
-                "source": "Windows.Terminal.Wsl",
-                "startingDirectory": "\\\\wsl$\\Ubuntu\\home\\andreas",
                 "colorScheme": "Modus Operandi"
                 // "colorScheme": "Modus Vivendi"
             }
