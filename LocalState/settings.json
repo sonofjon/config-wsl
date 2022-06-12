@@ -78,14 +78,6 @@
             "command": 
             {
                 "action": "sendInput",
-                "input": "\u001b[127;6u"
-            },
-            "keys": "ctrl+shift+backspace"
-        },
-        {
-            "command": 
-            {
-                "action": "sendInput",
                 "input": "\u001b[44;5u"
             },
             "keys": "ctrl+,"
@@ -105,6 +97,14 @@
                 "input": "\u001b[127;5u"
             },
             "keys": "ctrl+backspace"
+        },
+        {
+            "command":
+            {
+                "action": "sendInput",
+                "input": "\u001b[127;6u"
+            },
+            "keys": "ctrl+shift+backspace"
         },
         {
             "command": 
