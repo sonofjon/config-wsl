@@ -122,6 +122,14 @@
             },
             "keys": "ctrl+shift+k"
         },
+        {
+            "command":
+            {
+                "action": "sendInput",
+                "input": "\u001b[118;8u"
+            },
+            "keys": "ctrl+alt+shift+v"
+        },
         // Linux style tab switching
         {
             "command": 
