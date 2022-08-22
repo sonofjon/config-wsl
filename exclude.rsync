@@ -1,0 +1,16 @@
+.emacs.d/elpa/
+.emacs.d/quelpa/
+.local
+.npm
+.nvm
+.vscode-server
+data/
+git/
+local/
+tmp/
+*/.env/
+*/.git/
+*/.venv/
+*[Cc]ache*/
+*~
+\#*\#
