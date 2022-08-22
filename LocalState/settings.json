@@ -243,13 +243,13 @@
                 "source": "Windows.Terminal.Azure"
             },
             {
-                // Legacy (brain5-windows)
+                // Legacy
                 "commandline": "wsl.exe ~",
                 "name": "Legacy",
                 // "startingDirectory": "\\\\wsl$\\Ubuntu\\home\\andreas"
             },
             {
-                // Ubuntu (brain5-windows)
+                // Ubuntu
                 "commandline": "wsl.exe -d Ubuntu",
                 "name": "Ubuntu",
                 "startingDirectory": "\\\\wsl$\\Ubuntu\\home\\andreas",
@@ -257,7 +257,7 @@
                 // "colorScheme": "Modus Vivendi"
             },
             {
-                // Ubuntu 20.04 (brain8-windows)
+                // Ubuntu 20.04 LTS
                 "commandline": "wsl.exe -d Ubuntu-20.04",
                 "name": "Ubuntu 20.04 LTS",
                 "startingDirectory": "\\\\wsl$\\Ubuntu-20.04\\home\\andreas",
@@ -265,7 +265,7 @@
                 // "colorScheme": "Modus Vivendi"
             },
             {
-                // Ubuntu 22.04 LTS (NT131)
+                // Ubuntu 22.04 LTS
                 "commandline": "wsl.exe -d Ubuntu-22.04",
                 "name": "Ubuntu 22.04 LTS",
                 "startingDirectory": "\\\\wsl$\\Ubuntu-22.04\\home\\andreas",
