@@ -255,7 +255,6 @@
                 "name": "Ubuntu",
                 "startingDirectory": "\\\\wsl$\\Ubuntu\\home\\andreas",
                 "colorScheme": "Modus Operandi"
-                // "colorScheme": "Modus Vivendi"
             },
             {
                 // Ubuntu 20.04 LTS
@@ -264,7 +263,6 @@
                 "name": "Ubuntu 20.04 LTS",
                 "startingDirectory": "\\\\wsl$\\Ubuntu-20.04\\home\\andreas",
                 "colorScheme": "Modus Operandi"
-                // "colorScheme": "Modus Vivendi"
             },
             {
                 // Ubuntu 22.04 LTS
@@ -273,7 +271,6 @@
                 "name": "Ubuntu 22.04 LTS",
                 "startingDirectory": "\\\\wsl$\\Ubuntu-22.04\\home\\andreas",
                 "colorScheme": "Modus Operandi"
-                // "colorScheme": "Modus Vivendi"
             }
         ]
     },
