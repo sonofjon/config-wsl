@@ -245,17 +245,13 @@
             {
                 // Legacy (brain5-windows)
                 "commandline": "wsl.exe ~",
-                "guid": "{6e9fa4d2-a4aa-562d-b1fa-0789dc1f83d7}",
                 "name": "Legacy",
-                "source": "Windows.Terminal.Wsl"
                 // "startingDirectory": "\\\\wsl$\\Ubuntu\\home\\andreas"
             },
             {
                 // Ubuntu (brain5-windows)
                 "commandline": "wsl.exe -d Ubuntu",
-                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
                 "name": "Ubuntu",
-                "source": "Windows.Terminal.Wsl",
                 "startingDirectory": "\\\\wsl$\\Ubuntu\\home\\andreas",
                 "colorScheme": "Modus Operandi"
                 // "colorScheme": "Modus Vivendi"
@@ -263,9 +259,7 @@
             {
                 // Ubuntu 20.04 (brain8-windows)
                 "commandline": "wsl.exe -d Ubuntu-20.04",
-                "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
                 "name": "Ubuntu 20.04 LTS",
-                "source": "Windows.Terminal.Wsl",
                 "startingDirectory": "\\\\wsl$\\Ubuntu-20.04\\home\\andreas",
                 "colorScheme": "Modus Operandi"
                 // "colorScheme": "Modus Vivendi"
@@ -273,9 +267,7 @@
             {
                 // Ubuntu 22.04 LTS (NT131)
                 "commandline": "wsl.exe -d Ubuntu-22.04",
-                "guid": "{60c3e313-8e1a-58f6-8175-3650c2bd2b26}",
                 "name": "Ubuntu 22.04 LTS",
-                "source": "CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc",
                 "startingDirectory": "\\\\wsl$\\Ubuntu-22.04\\home\\andreas",
                 "colorScheme": "Modus Operandi"
                 // "colorScheme": "Modus Vivendi"
@@ -283,9 +275,7 @@
             {
                 // Ubuntu 22.04.1 LTS (brain11-windows)
                 "commandline": "wsl.exe -d Ubuntu-22.04",
-                "guid": "{f9ceaf27-504c-58d7-927c-d1d6a7ac7d3c}",
                 "name": "Ubuntu 22.04 LTS",
-                "source": "CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc",
                 "startingDirectory": "\\\\wsl$\\Ubuntu-22.04\\home\\andreas",
                 "colorScheme": "Modus Operandi"
                 // "colorScheme": "Modus Vivendi"
