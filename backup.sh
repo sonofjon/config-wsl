@@ -4,9 +4,17 @@
 #
 #  backup.sh [ -v ] [ -n ]
 #
-# Add to user crontab, e.g.
+# Symlink in bin directory
+#
+#   ln -s ~/dotfiles/config-wsl/backup.sh ~/bin/backup.sh
+#
+# and add to user crontab, e.g.
 #
 #   1 5 * * * ~/bin/backup.sh
+#
+# or symlink in anacron directory, e.g.
+#
+#   ln -s ~/dotfiles/config-wsl/backup.sh /etc/cron.hourly/backup
 #
 
 WINUSER=$(powershell.exe '$env:UserName' | tr -d '\r')
