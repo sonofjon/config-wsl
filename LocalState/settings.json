@@ -70,14 +70,6 @@
             "command": 
             {
                 "action": "sendInput",
-                "input": "\u001b[59;5u"
-            },
-            "keys": "ctrl+;"
-        },
-        {
-            "command": 
-            {
-                "action": "sendInput",
                 "input": "\u001b[44;5u"
             },
             "keys": "ctrl+,"
@@ -94,28 +86,20 @@
             "command": 
             {
                 "action": "sendInput",
-                "input": "\u001b[127;5u"
-            },
-            "keys": "ctrl+backspace"
-        },
-        {
-            "command":
-            {
-                "action": "sendInput",
-                "input": "\u001b[127;6u"
-            },
-            "keys": "ctrl+shift+backspace"
-        },
-        {
-            "command": 
-            {
-                "action": "sendInput",
                 "input": "\u001b[47;7u"
             },
             "keys": "ctrl+alt+/"
         },
         {
             "command": 
+            {
+                "action": "sendInput",
+                "input": "\u001b[59;5u"
+            },
+            "keys": "ctrl+;"
+        },
+        {
+            "command":
             {
                 "action": "sendInput",
                 "input": "\u001b[107;6u"
@@ -129,6 +113,22 @@
                 "input": "\u001b[118;8u"
             },
             "keys": "ctrl+alt+shift+v"
+        },
+        {
+            "command": 
+            {
+                "action": "sendInput",
+                "input": "\u001b[127;5u"
+            },
+            "keys": "ctrl+backspace"
+        },
+        {
+            "command":
+            {
+                "action": "sendInput",
+                "input": "\u001b[127;6u"
+            },
+            "keys": "ctrl+shift+backspace"
         },
         // Linux style tab switching
         {
