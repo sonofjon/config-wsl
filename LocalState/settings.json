@@ -75,12 +75,28 @@
             "keys": "ctrl+,"
         },
         {
+            "command":
+            {
+                "action": "sendInput",
+                "input": "\u001b[44;7u"
+            },
+            "keys": "ctrl+alt+,"
+        },
+        {
             "command": 
             {
                 "action": "sendInput",
                 "input": "\u001b[46;5u"
             },
             "keys": "ctrl+."
+        },
+        {
+            "command":
+            {
+                "action": "sendInput",
+                "input": "\u001b[46;7u"
+            },
+            "keys": "ctrl+alt+."
         },
         {
             "command": 
@@ -97,6 +113,30 @@
                 "input": "\u001b[59;5u"
             },
             "keys": "ctrl+;"
+        },
+        {
+            "command":
+            {
+                "action": "sendInput",
+                "input": "\u001b[59;7u"
+            },
+            "keys": "ctrl+alt+;"
+        },
+        {
+            "command":
+            {
+                "action": "sendInput",
+                "input": "\u001b[96;5u"
+            },
+            "keys": "ctrl+`"
+        },
+        {
+            "command":
+            {
+                "action": "sendInput",
+                "input": "\u001b[96;7u"
+            },
+            "keys": "ctrl+alt+`"
         },
         {
             "command":
