@@ -67,6 +67,14 @@
         },
         // Bind keys to send escape codes
         {
+            "command":
+            {
+                "action": "sendInput",
+                "input": "\u001b[32;2u"
+            },
+            "keys": "shift+space"
+        },
+        {
             "command": 
             {
                 "action": "sendInput",
