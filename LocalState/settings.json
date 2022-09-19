@@ -70,6 +70,14 @@
             "command":
             {
                 "action": "sendInput",
+                "input": "\u001b[8;7u"
+            },
+            "keys": "ctrl+alt+backspace"
+        },
+        {
+            "command":
+            {
+                "action": "sendInput",
                 "input": "\u001b[32;2u"
             },
             "keys": "shift+space"
@@ -134,6 +142,22 @@
             "command":
             {
                 "action": "sendInput",
+                "input": "\u001b[91;7u"
+            },
+          "keys": "ctrl+alt+["
+        },
+        {
+            "command":
+            {
+                "action": "sendInput",
+                "input": "\u001b[93;7u"
+            },
+          "keys": "ctrl+alt+]"
+        },
+        {
+            "command":
+            {
+                "action": "sendInput",
                 "input": "\u001b[96;5u"
             },
             "keys": "ctrl+`"
@@ -161,6 +185,22 @@
                 "input": "\u001b[118;8u"
             },
             "keys": "ctrl+alt+shift+v"
+        },
+        {
+            "command":
+            {
+                "action": "sendInput",
+                "input": "\u001b[123;5u"
+            },
+          "keys": "ctrl+{"
+        },
+        {
+            "command":
+            {
+                "action": "sendInput",
+                "input": "\u001b[125;5u"
+            },
+          "keys": "ctrl+}"
         },
         {
             "command": 
