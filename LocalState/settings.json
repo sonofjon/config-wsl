@@ -70,6 +70,21 @@
             "command":
             {
                 "action": "sendInput",
+                "input": "\u001b[8;5u"
+            },
+            "keys": "ctrl+backspace"
+        },
+        {
+            "command":
+            {
+                "action": "sendInput",
+                "input": "\u001b[8;6u"
+            },
+            "keys": "ctrl+shift+backspace"
+        },        {
+            "command":
+            {
+                "action": "sendInput",
                 "input": "\u001b[8;7u"
             },
             "keys": "ctrl+alt+backspace"
@@ -201,22 +216,6 @@
                 "input": "\u001b[125;5u"
             },
           "keys": "ctrl+}"
-        },
-        {
-            "command": 
-            {
-                "action": "sendInput",
-                "input": "\u001b[127;5u"
-            },
-            "keys": "ctrl+backspace"
-        },
-        {
-            "command":
-            {
-                "action": "sendInput",
-                "input": "\u001b[127;6u"
-            },
-            "keys": "ctrl+shift+backspace"
         },
         // Linux style tab switching
         {
