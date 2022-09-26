@@ -1,3 +1,4 @@
+.cargo/
 .emacs.d/elpa/
 .emacs.d/quelpa/
 .local/
