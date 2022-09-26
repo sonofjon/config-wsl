@@ -1,9 +1,12 @@
 .emacs.d/elpa/
 .emacs.d/quelpa/
-.local
-.npm
-.nvm
-.vscode-server
+.local/
+.luarocks/
+.npm/
+.nvm/
+.texlive.*/
+.texfm/
+.vscode-server/
 data/
 git/
 local/
