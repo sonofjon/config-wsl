@@ -1,5 +1,6 @@
 .cargo/
 .docsets/
+.emacs.d/devdocs/
 .emacs.d/elpa/
 .emacs.d/quelpa/
 .local/
