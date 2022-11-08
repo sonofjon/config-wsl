@@ -7,7 +7,7 @@
 .npm/
 .nvm/
 .texlive.*/
-.texfm/
+.texmf/
 .vscode-server/
 data/
 git/
