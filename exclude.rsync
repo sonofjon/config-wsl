@@ -13,6 +13,7 @@
 data/
 git/
 local/
+snap/
 tmp/
 */.env/
 */.git/
