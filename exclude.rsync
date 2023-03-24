@@ -1,3 +1,4 @@
+.bundle/
 .cache/
 .cargo/
 .docsets/
@@ -6,6 +7,7 @@
 .emacs.d/eln-cache/
 .emacs.d/elpa/
 .emacs.d/quelpa/
+.gem/
 .local/
 .luarocks/
 .npm/
@@ -21,6 +23,7 @@ tmp/
 */.env/
 */.git/
 */.venv/
+*/node_modules/
 *[Cc]ache*/
 *~
 \#*\#
