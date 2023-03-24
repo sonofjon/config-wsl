@@ -1,3 +1,4 @@
+.cache/
 .cargo/
 .docsets/
 .emacs.d/.cache/
