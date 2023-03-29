@@ -9,10 +9,12 @@
 /.emacs.d/quelpa/
 /.emacs.d/tree-sitter/
 /.gem/
+/.gnupg/
 /.local/
 /.luarocks/
 /.npm/
 /.nvm/
+/.ssh/
 /.texlive*/
 /.texmf/
 /.vscode-server/
