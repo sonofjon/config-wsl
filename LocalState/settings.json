@@ -285,7 +285,7 @@
             "keys": "alt+f5"
         }
     ],
-    "defaultProfile": "Ubuntu 22.04 LTS",
+    "defaultProfile": "Ubuntu",
     // Use system theme
     "theme": "system",
     // Default window size
