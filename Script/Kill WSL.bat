@@ -9,3 +9,5 @@
 @taskkill /IM wslservice.exe /F
 
 @echo Done!
+
+@pause
