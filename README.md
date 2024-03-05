@@ -1,2 +1,2 @@
 # config-wsl
-Configuration for WSL
+Configurations for WSL
