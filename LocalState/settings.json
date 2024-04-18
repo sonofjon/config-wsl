@@ -81,7 +81,8 @@
                 "input": "\u001b[8;6u"
             },
             "keys": "ctrl+shift+backspace"
-        },        {
+        },
+        {
             "command":
             {
                 "action": "sendInput",
