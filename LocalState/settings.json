@@ -59,7 +59,7 @@
         },
         {
             "command": "unbound",
-            "keys": "ctrl+alt+comma"
+            "keys": "ctrl+alt+,"
         },
         {
             "command": "unbound",
