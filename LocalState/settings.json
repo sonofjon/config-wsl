@@ -214,6 +214,22 @@
             "command":
             {
                 "action": "sendInput",
+                "input": "\u001b[113;4u"
+            },
+            "keys": "alt+shift+q"
+        },
+        {
+            "command":
+            {
+                "action": "sendInput",
+                "input": "\u001b[113;8u"
+            },
+            "keys": "ctrl+alt+shift+q"
+        },
+        {
+            "command":
+            {
+                "action": "sendInput",
                 "input": "\u001b[118;8u"
             },
             "keys": "ctrl+alt+shift+v"
