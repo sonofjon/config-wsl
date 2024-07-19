@@ -99,14 +99,6 @@
             "keys": "shift+space"
         },
         {
-            "command":
-            {
-                "action": "sendInput",
-                "input": "\u001b[32;7u"
-            },
-            "keys": "ctrl+alt+space"
-        },
-        {
             "command": 
             {
                 "action": "sendInput",
