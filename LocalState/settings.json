@@ -130,22 +130,22 @@
             },
             "keys": "ctrl+alt+."
         },
-        {
-            "command":
-            {
-                "action": "sendInput",
-                "input": "\u001b[47;5u"
-            },
-            "keys": "ctrl+/"
-        },
-        {
-            "command": 
-            {
-                "action": "sendInput",
-                "input": "\u001b[47;7u"
-            },
-            "keys": "ctrl+alt+/"
-        },
+        // {
+        //     "command":
+        //     {
+        //         "action": "sendInput",
+        //         "input": "\u001b[47;5u"
+        //     },
+        //     "keys": "ctrl+/"
+        // },
+        // {
+        //     "command":
+        //     {
+        //         "action": "sendInput",
+        //         "input": "\u001b[47;7u"
+        //     },
+        //     "keys": "ctrl+alt+/"
+        // },
         {
             "command": 
             {
