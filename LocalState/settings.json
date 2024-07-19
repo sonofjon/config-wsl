@@ -170,14 +170,14 @@
             },
           "keys": "ctrl+alt+["
         },
-        {
-            "command":
-            {
-                "action": "sendInput",
-                "input": "\u001b[93;7u"
-            },
-          "keys": "ctrl+alt+]"
-        },
+        // {
+        //     "command":
+        //     {
+        //         "action": "sendInput",
+        //         "input": "\u001b[93;7u"
+        //     },
+        //   "keys": "ctrl+alt+]"
+        // },
         {
             "command":
             {
