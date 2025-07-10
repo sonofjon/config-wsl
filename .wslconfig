@@ -1,0 +1,3 @@
+; https://github.com/microsoft/WSL/issues/4901#issuecomment-2601745459
+[experimental]
+; networkingMode=mirrored
