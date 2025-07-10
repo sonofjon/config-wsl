@@ -1,3 +1,5 @@
-; https://github.com/microsoft/WSL/issues/4901#issuecomment-2601745459
-[experimental]
+; https://superuser.com/questions/1630487/no-internet-connection-ubuntu-wsl-while-vpn
+; https://devblogs.microsoft.com/commandline/windows-subsystem-for-linux-september-2023-update/
+[wsl2]
 ; networkingMode=mirrored
+; dnsTunneling=true
