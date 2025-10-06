@@ -8,6 +8,15 @@
             "command": "find",
             "keys": "ctrl+shift+f"
         },
+        // Unbind keys
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+space"
+        },
+        {
+            "command": "unbound",
+            "keys": "win+`"
+        },
         // Unbind keys that interfere with Emacs
         {
             "command": "unbound",
