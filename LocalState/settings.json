@@ -303,20 +303,15 @@
             "keys": "alt+f5"
         }
     ],
+    // Don't prompt on exit
+    "closeOnExit": "always",
+    // Automatically copy selections to clipboard
+    "copyOnSelect": true,
+    // Default profile
     "defaultProfile": "Ubuntu 24.04 LTS",
-    // Use system theme
-    "theme": "system",
     // Default window size
     "initialCols": 180,
     "initialRows": 50,
-    // Disable tab switcher
-    "tabSwitcherMode": "disabled",
-    // Automatically copy selections to clipboard
-    "copyOnSelect": true,
-    // Disable multi-line pasting warning
-    "multiLinePasteWarning": false,
-    // Don't prompt on exit
-    "closeOnExit": "always",
     "profiles": 
     {
         "defaults": 
@@ -326,22 +321,22 @@
                 "window",
                 "taskbar"
             ],
-            "font": 
+            "colorScheme":
+            {
+                 "dark": "Modus Vivendi",
+                 "light": "Modus Operandi"
+                 // "dark": "Tango Dark",
+                 // "light": "Tango Light"
+                 // "dark": "One Half Dark",
+                 // "light": "One Half Light"
+            },
+            // "colorScheme": "Vintage",
+            "cursorShape": "filledBox",
+            "font":
             {
                 "face": "Cascadia Code",
                 "size": 11
-            },
-            "colorScheme":
-            {
-                 "light": "Modus Operandi",
-                 "dark": "Modus Vivendi"
-                 // "light": "Tango Light",
-                 // "dark": "Tango Dark"
-                 // "light": "One Half Light",
-                 // "dark": "One Half Dark"
-            },
-            // "colorScheme": "Vintage",
-            "cursorShape": "filledBox"
+            }
         },
         "list": 
         [
@@ -706,5 +701,11 @@
             "brightCyan": "#6ae4b9",
             "brightWhite": "#ffffff"
         },
-    ]
+    ],
+    // Disable tab switcher
+    "tabSwitcherMode": "disabled",
+    // Use system theme
+    "theme": "system",
+    // Disable multi-line pasting warning
+    "warning.multiLinePaste": false
 }
