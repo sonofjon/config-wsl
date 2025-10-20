@@ -359,7 +359,7 @@
             {
                 // Legacy
                 "commandline": "wsl.exe ~",
-                "name": "Legacy",
+                "name": "Legacy"
                 // "startingDirectory": "\\\\wsl$\\Ubuntu\\home\\andreas"
             },
             {
@@ -367,7 +367,8 @@
                 "commandline": "wsl.exe -d Ubuntu --cd ~",
                 // "icon": "https://assets.ubuntu.com/v1/49a1a858-favicon-32x32.png",
                 "name": "Ubuntu",
-                "startingDirectory": "%USERPROFILE%",
+                "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc",
+                "startingDirectory": "%USERPROFILE%"
                 // "colorScheme": "Modus Operandi"
             },
             {
@@ -375,7 +376,8 @@
                 "commandline": "wsl.exe -d Ubuntu-20.04 --cd ~",
                 // "icon": "https://assets.ubuntu.com/v1/49a1a858-favicon-32x32.png",
                 "name": "Ubuntu 20.04 LTS",
-                "startingDirectory": "%USERPROFILE%",
+                "source": "Microsoft.WSL",
+                "startingDirectory": "%USERPROFILE%"
                 // "colorScheme": "Modus Operandi"
             },
             {
@@ -383,7 +385,8 @@
                 "commandline": "wsl.exe -d Ubuntu-22.04 --cd ~",
                 // "icon": "https://assets.ubuntu.com/v1/49a1a858-favicon-32x32.png",
                 "name": "Ubuntu 22.04 LTS",
-                "startingDirectory": "%USERPROFILE%",
+                "source": "Microsoft.WSL",
+                "startingDirectory": "%USERPROFILE%"
                 // "colorScheme": "Modus Operandi"
             },
             {
@@ -391,6 +394,7 @@
                 "commandline": "wsl.exe -d Ubuntu-24.04 --cd ~",
                 // "icon": "https://assets.ubuntu.com/v1/49a1a858-favicon-32x32.png",
                 "name": "Ubuntu 24.04 LTS",
+                "source": "Microsoft.WSL",
                 "startingDirectory": "%USERPROFILE%"
             }
         ]
