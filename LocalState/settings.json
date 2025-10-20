@@ -365,7 +365,7 @@
             {
                 // Ubuntu
                 "commandline": "wsl.exe -d Ubuntu --cd ~",
-                "icon": "https://assets.ubuntu.com/v1/49a1a858-favicon-32x32.png",
+                // "icon": "https://assets.ubuntu.com/v1/49a1a858-favicon-32x32.png",
                 "name": "Ubuntu",
                 "startingDirectory": "%USERPROFILE%",
                 // "colorScheme": "Modus Operandi"
@@ -373,7 +373,7 @@
             {
                 // Ubuntu 20.04 LTS
                 "commandline": "wsl.exe -d Ubuntu-20.04 --cd ~",
-                "icon": "https://assets.ubuntu.com/v1/49a1a858-favicon-32x32.png",
+                // "icon": "https://assets.ubuntu.com/v1/49a1a858-favicon-32x32.png",
                 "name": "Ubuntu 20.04 LTS",
                 "startingDirectory": "%USERPROFILE%",
                 // "colorScheme": "Modus Operandi"
@@ -381,7 +381,7 @@
             {
                 // Ubuntu 22.04 LTS
                 "commandline": "wsl.exe -d Ubuntu-22.04 --cd ~",
-                "icon": "https://assets.ubuntu.com/v1/49a1a858-favicon-32x32.png",
+                // "icon": "https://assets.ubuntu.com/v1/49a1a858-favicon-32x32.png",
                 "name": "Ubuntu 22.04 LTS",
                 "startingDirectory": "%USERPROFILE%",
                 // "colorScheme": "Modus Operandi"
@@ -389,7 +389,7 @@
             {
                 // Ubuntu 24.04 LTS
                 "commandline": "wsl.exe -d Ubuntu-24.04 --cd ~",
-                "icon": "https://assets.ubuntu.com/v1/49a1a858-favicon-32x32.png",
+                // "icon": "https://assets.ubuntu.com/v1/49a1a858-favicon-32x32.png",
                 "name": "Ubuntu 24.04 LTS",
                 "startingDirectory": "%USERPROFILE%"
             }
