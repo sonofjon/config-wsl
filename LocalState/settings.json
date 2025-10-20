@@ -3,11 +3,6 @@
     "$schema": "https://aka.ms/terminal-profiles-schema",
     "actions": 
     [
-        // Press Ctrl+Shift+F to open the search box
-        {
-            "command": "find",
-            "keys": "ctrl+shift+f"
-        },
         // Unbind keys
         {
             "command": "unbound",
