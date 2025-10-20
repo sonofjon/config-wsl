@@ -396,6 +396,13 @@
                 "name": "Ubuntu 24.04 LTS",
                 "source": "Microsoft.WSL",
                 "startingDirectory": "%USERPROFILE%"
+            },
+            {
+                // Git Bash
+                "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+                "hidden": false,
+                "name": "Git Bash",
+                "source": "Git"
             }
         ]
     },
