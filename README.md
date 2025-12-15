@@ -74,7 +74,11 @@ VPN and Hotspot.
     {Safe MTU} = {LSDS} + 28 - 100
     *Example: If LSDS is 1350, the Safe MTU is 1278 bytes.*
 
-### Alternative solution
+### References
+
+[Why do I have no internet connection on Ubuntu WSL while on a VPN?]{https://superuser.com/questions/1630487/why-do-i-have-no-internet-connection-on-ubuntu-wsl-while-on-a-vpn}
+
+## Mirrored Network Mode
 
 If you're on Windows 11 with a recent WSL version, Microsoft introduced
 "Mirrored Network Mode" specifically to improve VPN compatibility. But note
@@ -108,10 +112,15 @@ Set-NetFirewallHyperVVMSetting -Name '{40E0AC32-46A5-438A-A0B2-2B479E8F2E90}' -D
 
 as described in the documentation below.
 
-Note that manipulation of MTU might still be required.
+Note that manipulation of MTU might still be required (see above). The
+Mirrored Networking Mode aims to solve the problem of IP address routing and
+DNS resolution by putting the WSL VM on the same layer-2 broadcast domain as
+the Windows host. It is supposed to eliminate the Hyper-V NAT layer that was
+present in the default mode. However, the MTU problem is a Layer-3 (IP) and
+Layer-4 (Transport) issue caused by encapsulation, not a Layer-2 routing
+issue.
 
 ### References
 
-[Why do I have no internet connection on Ubuntu WSL while on a VPN?]{https://superuser.com/questions/1630487/why-do-i-have-no-internet-connection-on-ubuntu-wsl-while-on-a-vpn}
 [Mirrored Networking]{https://learn.microsoft.com/en-us/windows/wsl/networking#mirrored-mode-networking}
 [Windows Subsystem for Linux September 2023 update]{https://devblogs.microsoft.com/commandline/windows-subsystem-for-linux-september-2023-update/}
