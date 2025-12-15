@@ -45,7 +45,7 @@ the restricted path limit.
 
 * **Verify Fix:** Run `wsl --shutdown` (Windows Host) then restart WSL.
     ```bash
-    ip link show eth0 
+    ip link show eth0
     # Check that 'mtu' is set to your <SAFE_MTU> value.
     ```
 * **Host Adapter Check:** List local adapter MTU for diagnostics.
@@ -81,6 +81,34 @@ If you're on Windows 11 with a recent WSL version, Microsoft introduced
 that some VPN clients manage the host's networking stack in such an
 aggressive way that they prevent the necessary internal Hyper-V changes
 required for mirrored mode.
+
+Add:
+
+```
+[wsl2]
+networkingMode=mirrored
+```
+
+to `$env:USERPROFILE\.wslconfig`.
+
+This setup may also require:
+
+```
+hostAddressLoopback=true
+```
+
+Note that `networkingMode` and `hostAddressLoopback` can also be enabled in
+WSL settings in the Windows start menu.
+
+Finally you may need to open the firewall:
+
+```
+Set-NetFirewallHyperVVMSetting -Name '{40E0AC32-46A5-438A-A0B2-2B479E8F2E90}' -DefaultInboundAction Allow
+```
+
+as described in the documentation below.
+
+Note that manipulation of MTU might still be required.
 
 ### References
 

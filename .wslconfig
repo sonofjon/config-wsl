@@ -1,7 +1,5 @@
 # https://superuser.com/questions/1630487/no-internet-connection-ubuntu-wsl-while-vpn
 # https://devblogs.microsoft.com/commandline/windows-subsystem-for-linux-september-2023-update/
-# Note that networkingMode=mirrored can also be enabled in WSL settings in
-# the Windows start menu
 
 [wsl2]
 # networkingMode=mirrored
