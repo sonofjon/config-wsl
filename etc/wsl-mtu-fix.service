@@ -1,0 +1,11 @@
+[Unit]
+Description=Set correct MTU for WSL eth0
+Wants=network-pre.target
+Before=network-pre.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/wsl_mtu_fix.sh
+
+[Install]
+WantedBy=multi-user.target
