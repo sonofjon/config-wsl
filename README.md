@@ -76,7 +76,7 @@ VPN and Hotspot.
 
 ### References
 
-[Why do I have no internet connection on Ubuntu WSL while on a VPN?]{https://superuser.com/questions/1630487/why-do-i-have-no-internet-connection-on-ubuntu-wsl-while-on-a-vpn}
+[Why do I have no internet connection on Ubuntu WSL while on a VPN?](https://superuser.com/questions/1630487/why-do-i-have-no-internet-connection-on-ubuntu-wsl-while-on-a-vpn)
 
 ## Mirrored Network Mode
 
@@ -122,5 +122,5 @@ issue.
 
 ### References
 
-[Mirrored Networking]{https://learn.microsoft.com/en-us/windows/wsl/networking#mirrored-mode-networking}
-[Windows Subsystem for Linux September 2023 update]{https://devblogs.microsoft.com/commandline/windows-subsystem-for-linux-september-2023-update/}
+[Mirrored Networking](https://learn.microsoft.com/en-us/windows/wsl/networking#mirrored-mode-networking)
+[Windows Subsystem for Linux September 2023 update](https://devblogs.microsoft.com/commandline/windows-subsystem-for-linux-september-2023-update/)
