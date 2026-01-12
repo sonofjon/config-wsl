@@ -106,6 +106,14 @@
             "command":
             {
                 "action": "sendInput",
+                "input": "\u001b[13;2u"
+            },
+            "keys": "shift+enter"
+        },
+        {
+            "command":
+            {
+                "action": "sendInput",
                 "input": "\u001b[44;5u"
             },
             "keys": "ctrl+,"
