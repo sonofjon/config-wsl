@@ -28,7 +28,7 @@ the restricted path limit.
 
 1.  **Install Script:**
     ```bash
-    sudo cp wsl-mtu-fix.sh /usr/local/etc/
+    sudo cp wsl_mtu_fix.sh /usr/local/bin/
     ```
 2.  **Install Service:**
     ```bash
