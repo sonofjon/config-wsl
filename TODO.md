@@ -1,1 +1,1 @@
-[ ] disable shortcut C-S-w (accidentally closes tabs!) 
+- [ ] disable shortcut C-S-w (accidentally closes tabs!)
